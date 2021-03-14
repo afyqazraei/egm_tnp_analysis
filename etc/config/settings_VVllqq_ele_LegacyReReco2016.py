@@ -1,4 +1,5 @@
 import etc.config.settings_VVllqq_common as common
+import etc.inputs.tnpSampleDef_VVllqq    as tnpSamples
 
 #############################################################
 ########## General settings
@@ -14,7 +15,6 @@ baseOutDir = 'results/LegacyReReco2016/tnpEleTrig'
 #############################################################
 ### samples are defined in etc/inputs/tnpSampleDef.py
 ### not: you can setup another sampleDef File in inputs
-import etc.inputs.tnpSampleDef_VVllqq as tnpSamples
 tnpTreeDir = 'tnpEleTrig'
 
 samplesDef = {
