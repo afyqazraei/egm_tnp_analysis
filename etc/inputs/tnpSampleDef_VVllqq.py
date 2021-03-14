@@ -23,11 +23,11 @@ ReReco2017 = {
   'DY_amcatnlo'   : tnpSample('DY_amcatnlo',    eosReReco2017 + 'TnPTree_DY_M50_amcatnloFXFX.root',     isMC = True, nEvts =  -1),
   'DY_madgraph'   : tnpSample('DY_madgraph',    eosReReco2017 + 'TnPTree_DY_M50_madgraphMLM.root',      isMC = True, nEvts =  -1),
   'DY_1j_madgraph': tnpSample('DY_1j_madgraph', eosReReco2017 + 'TnPTree_DY1Jets_M50_madgraphMLM.root', isMC = True, nEvts =  -1),
-  'data_Run2017B' : tnpSample('data_Run2017B' , eosReReco2017 + 'TnPTree_2017RunB.root', lumi = 4.794),
-  'data_Run2017C' : tnpSample('data_Run2017C' , eosReReco2017 + 'TnPTree_2017RunC.root', lumi = 9.633),
-  'data_Run2017D' : tnpSample('data_Run2017D' , eosReReco2017 + 'TnPTree_2017RunD.root', lumi = 4.248),
-  'data_Run2017E' : tnpSample('data_Run2017E' , eosReReco2017 + 'TnPTree_2017RunE.root', lumi = 9.315),
-  'data_Run2017F' : tnpSample('data_Run2017F' , eosReReco2017 + 'TnPTree_2017RunF.root', lumi = 13.540),
+  'data_Run2017B' : tnpSample('data_Run2017B' , eosReReco2017 + 'TnPTree_2017B.root', lumi = 4.794),
+  'data_Run2017C' : tnpSample('data_Run2017C' , eosReReco2017 + 'TnPTree_2017C.root', lumi = 9.633),
+  'data_Run2017D' : tnpSample('data_Run2017D' , eosReReco2017 + 'TnPTree_2017D.root', lumi = 4.248),
+  'data_Run2017E' : tnpSample('data_Run2017E' , eosReReco2017 + 'TnPTree_2017E.root', lumi = 9.315),
+  'data_Run2017F' : tnpSample('data_Run2017F' , eosReReco2017 + 'TnPTree_2017F.root', lumi = 13.540),
 }
 
 
@@ -37,10 +37,10 @@ ReReco2018 = {
   'DY_amcatnlo'   : tnpSample('DY_amcatnlo',    eosReReco2018 + 'TnPTree_DY_M50_amcatnloFXFX.root', isMC = True, nEvts =  -1),
   'DY_madgraph'   : tnpSample('DY_madgraph',    eosReReco2018 + 'TnPTree_DY_M50_madgraphMLM.root',  isMC = True, nEvts =  -1),
   'DY_powheg'     : tnpSample('DY_powheg',      eosReReco2018 + 'TnPTree_DY_M50_powheg.root',       isMC = True, nEvts =  -1),
-  'data_Run2018A' : tnpSample('data_Run2018A' , eosReReco2018 + 'TnPTree_2018RunA.root', lumi = 14.028),  
-  'data_Run2018B' : tnpSample('data_Run2018B' , eosReReco2018 + 'TnPTree_2018RunB.root', lumi = 7.067),
-  'data_Run2018C' : tnpSample('data_Run2018C' , eosReReco2018 + 'TnPTree_2018RunC.root', lumi = 6.899),
-  'data_Run2018D' : tnpSample('data_Run2018D' , eosReReco2018 + 'TnPTree_2018RunD.root', lumi = 31.748), 
+  'data_Run2018A' : tnpSample('data_Run2018A' , eosReReco2018 + 'TnPTree_2018A.root', lumi = 14.028),  
+  'data_Run2018B' : tnpSample('data_Run2018B' , eosReReco2018 + 'TnPTree_2018B.root', lumi = 7.067),
+  'data_Run2018C' : tnpSample('data_Run2018C' , eosReReco2018 + 'TnPTree_2018C.root', lumi = 6.899),
+  'data_Run2018D' : tnpSample('data_Run2018D' , eosReReco2018 + 'TnPTree_2018D.root', lumi = 31.748), 
 }
 
 
